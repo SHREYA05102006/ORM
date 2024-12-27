@@ -23,7 +23,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-'''
+```
 admin.py 
 
 from django.contrib import admin
@@ -43,7 +43,7 @@ class bankloan(models.Model):
 class bankloanAdmin(admin.ModelAdmin):
     list_display = ('loan_id','loan_type','loan_amt','cust_name','cust_acno')
 
-'''
+```
 
 
 ## OUTPUT
